@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,500);
+
+
+* { 
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #E2E2E3;
+  color: #46494C;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.main-content {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  left: 0;
+}
+
+a {
+  color: #1985A1;
+  text-align: center;
+}
+
+a:hover {
+  color: #1985A1;
+  text-decoration: none;
+
+}
+
+.fa-search {
+  color: #6CB1C3;
+  font-size: .8em;
+}
+
+.fa-search:hover {
+  transform: scale(1.2);
+  color: #C5C3C6;
+}
+
+
+#search-text {
+  border: none;
+  background-color: #E2E2E3;
+  border-bottom: 1px solid #C5C3C6;
+  font-size: .8em;
+  outline: none;
+  width: 500px;
+  color: #6CB1C3;
+}
+
+#random-search {
+  background-color: #E2E2E3; 
+  color: #B4B2B4;
+  border: none;
+  font-size: .8em;
+  font-weight: 100;
+}
+
+#random-search:hover {
+  background-color: #E2E2E3;
+  color: #6CB1C3;
+  border: none;
+  text-decoration: none;
+  font-weight: 100;
+  outline: none;
+  box-shadow:none;
+}
+
+#random-search:active {
+  outline: none;
+  border: 0;
+}
+
+.results {
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#output {
+  color: #46494C;
+  font-size: .5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 50px;
+}
+
+li {
+  text-align: left;
+  margin-top: 30px;
+}
+
+ul a{
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #6CB1C3;
+}
+
+ul a:hover {
+  color: #46494C;
+  border-bottom: 2px solid #6CB1C3;
+}
+
+#back-to-top {
+    color: #C5C3C6;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: .7em;
+}
+#back-to-top:hover {
+    color: #6CB1C3;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+#output p{
+  text-align: left;
+}
+
+// Media Queries
+
+@media (max-width: 1250px) {
+  html,body {
+      font-size: 1.3em;
+  }
+
+  #search-text {
+    width: 300px;
+    font-size: 1em;
+  }
+
+  .results {
+    width: 100%;
+    background-color: white;
+  }
+}
+
+
+
+@media (max-width: 900px) {
+  html,body {
+    font-size: 1em;
+  }
+
+  #search-text {
+    width: 300px;
+    font-size: 1em;
+  }
+
+  .results {
+  width: 70%;
+  background-color: white;
+  margin-top: 50%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  }
+
+}
+
+
+
+@media (max-width: 550px) {
+  html,body {
+      font-size: 1em;
+  }
+
+  #search-text {
+    width: 300px;
+    font-size: 1em;
+  }
+
+  .results {
+  width: 70%;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  }
+
+
+}
+
+
