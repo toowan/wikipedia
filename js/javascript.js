@@ -22,6 +22,8 @@ $(document).ready(function() {
   });
 
 
+  
+
   // When enter key is pressed, run wikiCallback
   $('#search-text').keypress(function(e) {
     if ( e.which == 13 ) {

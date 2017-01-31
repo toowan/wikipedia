@@ -54,7 +54,7 @@ a:hover {
 
 #random-search {
   background-color: #E2E2E3; 
-  color: #B4B2B4;
+  color: #A2A0A2;
   border: none;
   font-size: .8em;
   font-weight: 100;
@@ -150,10 +150,6 @@ ul a:hover {
     font-size: 1em;
   }
 
-  .results {
-    width: 100%;
-    background-color: white;
-  }
 }
 
 
@@ -169,10 +165,6 @@ ul a:hover {
   }
 
   .results {
-  width: 70%;
-  background-color: white;
-  margin-top: 50%;
-  margin-bottom: 10px;
   border-radius: 5px;
   }
 
@@ -189,20 +181,18 @@ ul a:hover {
     font-size: 1em;
   }
 
+  #search-bar {
+    margin-bottom: 200px;
+  }
+
   .results {
-  width: 70%;
-  background-color: white;
   border-radius: 5px;
   font-size: 1em;
   }
 
   ul {
-  list-style-type: none;
   padding: 10px;
-  padding-top: 10px;
 }
 
-
-}
 
 
