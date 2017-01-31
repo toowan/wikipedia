@@ -10,14 +10,26 @@ $(document).ready(function() {
   })
 
 
-  // When search icon is clicked, run code
-  $('#search').click(function() {
+  // When search icon is clicked, run wikiCallback
+  $('#search').click(wikiCallback);
+
+  // When enter key is pressed, run wikiCallback
+  $('#search-text').keypress(function(e) {
+    if ( e.which == 13 ) {
+     e.preventDefault();
+     $('#search').trigger("click");
+    };
+  }); 
+
+  // Callback function
+  function wikiCallback(e) {
+    console.log('wikiCallback');
     // Gets search input
     var searchText = $('#search-text').val(); 
     //API url with searchTerm
     var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchText + "&format=json&callback=?";
 
-    // WikipediaAjax call
+    // Wikipedia Ajax call
     $.ajax({
       type: "GET",
       url: url,
@@ -37,7 +49,7 @@ $(document).ready(function() {
       }
 
     });
-  });
+  }
 
   // Hide results by default 
   $('#content').hide();
