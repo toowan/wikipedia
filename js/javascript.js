@@ -1,4 +1,3 @@
-// Run jQuery
 $(document).ready(function() {
 
 
@@ -15,7 +14,7 @@ $(document).ready(function() {
       e.preventDefault();
       wikiCallback(e);
       $('#search-text').val(""); //clears value in text box
-      $('#search-bar').animate({top: "3%"}, 300); // moves search bar up
+      $('#search-bar').animate({top: "3%"}, 400); // moves search bar up
       $('#content').show().animate({
         opacity: 1,
         marginTop: "130px"

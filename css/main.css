@@ -31,12 +31,12 @@ a:hover {
 
 }
 
-.fa-search {
+.fa-flip-horizontal{
   color: #6CB1C3;
   font-size: .8em;
 }
 
-.fa-search:hover {
+.fa-flip-horizontal:hover {
   transform: scale(1.2);
   color: #C5C3C6;
 }
@@ -175,7 +175,6 @@ ul a:hover {
   }
 
 }
-
 
 
 @media (max-width: 550px) {
