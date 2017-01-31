@@ -17,7 +17,7 @@ $(document).ready(function() {
       $('#search-bar').animate({top: "3%"}, 400); // moves search bar up
       $('#content').show().animate({
         opacity: 1,
-        marginTop: "130px"
+        marginTop: "125px"
       }, 800); 
   });
 

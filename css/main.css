@@ -135,7 +135,6 @@ ul a:hover {
 
 
 
-
 // Media Queries
 
 @media (max-width: 1250px) {
@@ -197,6 +196,7 @@ ul a:hover {
   ul {
   list-style-type: none;
   padding: 10px;
+  padding-top: 10px;
 }
 
 
