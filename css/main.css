@@ -140,32 +140,36 @@ ul a:hover {
 
 // Media Queries
 
+
 @media (max-width: 1250px) {
   html,body {
       font-size: 1.3em;
   }
 
   #search-text {
-    width: 300px;
+    width: 500px;
     font-size: 1em;
+  }
+
+  .results {
+  width: 80%;
   }
 
 }
 
 
-
-@media (max-width: 900px) {
+@media (max-width: 830px) {
   html,body {
     font-size: 1em;
   }
 
   #search-text {
-    width: 300px;
+    width: 400px;
     font-size: 1em;
   }
 
   .results {
-  border-radius: 5px;
+  width: 70%;
   }
 
 }
@@ -186,6 +190,7 @@ ul a:hover {
   }
 
   .results {
+  width: 70%;
   border-radius: 5px;
   font-size: 1em;
   }
