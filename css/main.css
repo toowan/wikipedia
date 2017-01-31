@@ -86,9 +86,12 @@ a:hover {
   font-size: .5em;
 }
 
+
 ul {
   list-style-type: none;
   padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 li {
@@ -107,6 +110,12 @@ ul a:hover {
   border-bottom: 2px solid #6CB1C3;
 }
 
+.site-footer, .container:after {
+  height: 30px;
+}
+
+
+
 #back-to-top {
     color: #C5C3C6;
     cursor: pointer;
@@ -122,9 +131,10 @@ ul a:hover {
     opacity: 1;
 }
 
-#output p{
-  text-align: left;
-}
+
+
+
+
 
 // Media Queries
 
@@ -174,7 +184,7 @@ ul a:hover {
   }
 
   #search-text {
-    width: 300px;
+    width: 250px;
     font-size: 1em;
   }
 
@@ -184,6 +194,11 @@ ul a:hover {
   border-radius: 5px;
   font-size: 1em;
   }
+
+  ul {
+  list-style-type: none;
+  padding: 10px;
+}
 
 
 }
