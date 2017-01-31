@@ -58,6 +58,8 @@ a:hover {
   border: none;
   font-size: .8em;
   font-weight: 100;
+  margin-top: 10px;
+  padding: 0;
 }
 
 #random-search:hover {
@@ -68,6 +70,7 @@ a:hover {
   font-weight: 100;
   outline: none;
   box-shadow:none;
+
 }
 
 #random-search:active {
